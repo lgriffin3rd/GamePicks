@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD11CC5C22E77DE100DFC08E /* CameraControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11CC5B22E77DE100DFC08E /* CameraControler.swift */; };
+		FD11CC5E22E77FC600DFC08E /* PickImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11CC5D22E77FC600DFC08E /* PickImageViewController.swift */; };
+		FD11CC6022E7834300DFC08E /* ViewControllerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD11CC5F22E7834300DFC08E /* ViewControllerWrapper.swift */; };
+		FDC2CECF22E8906B003DB81C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2CECE22E8906B003DB81C /* TestViewController.swift */; };
+		FDC2CED122E892A4003DB81C /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2CED022E892A4003DB81C /* PreviewView.swift */; };
+		FDC2CED522E8D43F003DB81C /* ImagePickerview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2CED422E8D43F003DB81C /* ImagePickerview.swift */; };
+		FDC2CED722E8E340003DB81C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2CED622E8E340003DB81C /* ImagePicker.swift */; };
 		FDEA647F22E7636A004A0544 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA647E22E7636A004A0544 /* AppDelegate.swift */; };
 		FDEA648122E7636A004A0544 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA648022E7636A004A0544 /* SceneDelegate.swift */; };
 		FDEA648422E7636A004A0544 /* GamePicks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDEA648222E7636A004A0544 /* GamePicks.xcdatamodeld */; };
@@ -14,9 +21,19 @@
 		FDEA648822E7636C004A0544 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEA648722E7636C004A0544 /* Assets.xcassets */; };
 		FDEA648B22E7636C004A0544 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEA648A22E7636C004A0544 /* Preview Assets.xcassets */; };
 		FDEA648E22E7636C004A0544 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEA648C22E7636C004A0544 /* LaunchScreen.storyboard */; };
+		FDEA649622E763A5004A0544 /* PickedImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA649522E763A5004A0544 /* PickedImages.swift */; };
+		FDEA649822E7644B004A0544 /* ImageCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA649722E7644B004A0544 /* ImageCardView.swift */; };
+		FDEA649A22E7647E004A0544 /* ImageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA649922E7647E004A0544 /* ImageCollection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD11CC5B22E77DE100DFC08E /* CameraControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraControler.swift; sourceTree = "<group>"; };
+		FD11CC5D22E77FC600DFC08E /* PickImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickImageViewController.swift; path = "../../../../../../Volumes/Seagate Backup Plus Drive/PickImageViewController.swift"; sourceTree = "<group>"; };
+		FD11CC5F22E7834300DFC08E /* ViewControllerWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerWrapper.swift; sourceTree = "<group>"; };
+		FDC2CECE22E8906B003DB81C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FDC2CED022E892A4003DB81C /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		FDC2CED422E8D43F003DB81C /* ImagePickerview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerview.swift; sourceTree = "<group>"; };
+		FDC2CED622E8E340003DB81C /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FDEA647B22E7636A004A0544 /* GamePicks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GamePicks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEA647E22E7636A004A0544 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDEA648022E7636A004A0544 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		FDEA648A22E7636C004A0544 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDEA648D22E7636C004A0544 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDEA648F22E7636C004A0544 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEA649522E763A5004A0544 /* PickedImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickedImages.swift; sourceTree = "<group>"; };
+		FDEA649722E7644B004A0544 /* ImageCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCardView.swift; sourceTree = "<group>"; };
+		FDEA649922E7647E004A0544 /* ImageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,8 @@
 		FDEA647D22E7636A004A0544 /* GamePicks */ = {
 			isa = PBXGroup;
 			children = (
+				FDC2CED622E8E340003DB81C /* ImagePicker.swift */,
+				FD11CC5B22E77DE100DFC08E /* CameraControler.swift */,
 				FDEA647E22E7636A004A0544 /* AppDelegate.swift */,
 				FDEA648022E7636A004A0544 /* SceneDelegate.swift */,
 				FDEA648522E7636A004A0544 /* ContentView.swift */,
@@ -66,6 +88,14 @@
 				FDEA648F22E7636C004A0544 /* Info.plist */,
 				FDEA648222E7636A004A0544 /* GamePicks.xcdatamodeld */,
 				FDEA648922E7636C004A0544 /* Preview Content */,
+				FDEA649522E763A5004A0544 /* PickedImages.swift */,
+				FDEA649722E7644B004A0544 /* ImageCardView.swift */,
+				FDEA649922E7647E004A0544 /* ImageCollection.swift */,
+				FD11CC5D22E77FC600DFC08E /* PickImageViewController.swift */,
+				FD11CC5F22E7834300DFC08E /* ViewControllerWrapper.swift */,
+				FDC2CECE22E8906B003DB81C /* TestViewController.swift */,
+				FDC2CED022E892A4003DB81C /* PreviewView.swift */,
+				FDC2CED422E8D43F003DB81C /* ImagePickerview.swift */,
 			);
 			path = GamePicks;
 			sourceTree = "<group>";
@@ -149,7 +179,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD11CC5E22E77FC600DFC08E /* PickImageViewController.swift in Sources */,
+				FDEA649822E7644B004A0544 /* ImageCardView.swift in Sources */,
+				FDC2CECF22E8906B003DB81C /* TestViewController.swift in Sources */,
+				FDC2CED722E8E340003DB81C /* ImagePicker.swift in Sources */,
+				FDC2CED522E8D43F003DB81C /* ImagePickerview.swift in Sources */,
+				FD11CC5C22E77DE100DFC08E /* CameraControler.swift in Sources */,
+				FDEA649A22E7647E004A0544 /* ImageCollection.swift in Sources */,
+				FDC2CED122E892A4003DB81C /* PreviewView.swift in Sources */,
+				FD11CC6022E7834300DFC08E /* ViewControllerWrapper.swift in Sources */,
 				FDEA647F22E7636A004A0544 /* AppDelegate.swift in Sources */,
+				FDEA649622E763A5004A0544 /* PickedImages.swift in Sources */,
 				FDEA648422E7636A004A0544 /* GamePicks.xcdatamodeld in Sources */,
 				FDEA648622E7636A004A0544 /* ContentView.swift in Sources */,
 				FDEA648122E7636A004A0544 /* SceneDelegate.swift in Sources */,
